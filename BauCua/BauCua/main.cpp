@@ -1,8 +1,6 @@
-#include <stdio.h>
+#include "WorkFlow.h"
 
 int main() {
-	
-	// code here
-
+	start();
 	return 0;
 }
