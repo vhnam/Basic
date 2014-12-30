@@ -1,3 +1,3 @@
 #include "system.h"
 
-void start();
+void startGame(string userName);

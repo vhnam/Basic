@@ -1,2 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
