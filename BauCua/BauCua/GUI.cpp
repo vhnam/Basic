@@ -6,8 +6,8 @@ void showWelcomeScreen() {
 	cout << "\n\tChao mung ban den voi To chuc Co Bac cua Cty TNHH mot thanh vien Yet Kieu\n" << endl;
 
 	cout << "\n\tDe biet cach choi Bau Cua, ban vui long tim kiem tren Google.\n" << endl;
-	cout << "\tNeu ban muon bao cong an, vui long nhan phim [y]." << endl;
-	cout << "\tNeu ban muon tiep tuc choi, vui long nhan phim [n]." << endl;
+	cout << "\tNeu ban muon tiep tuc choi, vui long nhan phim [y]." << endl;
+	cout << "\tNeu ban muon bao cong an, vui long nhan phim [n]." << endl;
 	cout << "\n\tNhap phim: ";
 
 	getline(cin, key);
@@ -59,4 +59,18 @@ void showGoodbyeScreen(const string &userName) {
 	cout << userName;
 	cout << " may man lan sau -------------\n" << endl;
 	exit(0);
+}
+
+void showMascot() {
+	cout << "\n\tBan chon linh vat nao?\n" << endl;
+	cout << "\t1. Nai" << endl;
+	cout << "\t2. Bau" << endl;
+	cout << "\t3. Cua" << endl;
+	cout << "\t4. Tom" << endl;
+	cout << "\t5. Ca" << endl;
+	cout << "\t6. Ga" << endl;
+	cout << "\t0. Dung dat cuoc" << endl;
+	cout << "\t# Neu muon bo chon linh vat nao thi them \"-\" phia truoc" << endl;
+	cout << "\t#Vi du: \"-5\" de bo chon Ga" << endl;
+	cout << "\n\t--------------------------" << endl;
 }
