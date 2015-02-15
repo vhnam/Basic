@@ -8,8 +8,8 @@ class SpiralMatrix
 
     # Constructor
     # Params:
-    # +rows+:: quantity rows of the spiral matrix
-    # +columns+:: quantity columns of the spiral matrix
+    # +rows+:: Quantity rows of the spiral matrix
+    # +columns+:: Quantity columns of the spiral matrix
     def initialize(rows, columns)
         @rows = rows
         @columns = columns
@@ -27,7 +27,7 @@ class SpiralMatrix
         $turns = 0
         $maxElements = @rows * @columns
         
-        # process will stop when $number is less than or equal $maxElements
+        # Process will stop when $number is equal $maxElements
         while $turns < (@columns - 1 - $turns)
             $i = $turns
             while $i < @columns - $turns && $number <= $maxElements   # left to right
